@@ -9,8 +9,16 @@
 </head>
 
 <body>
-    <h3>{{ $name }}</h3>
-    <p> {{ $description }}</p>
+    <header>
+        <ul>
+            <li><a href="/">Return home</a></li>
+            <li><a href="/info">Info</a></li>
+        </ul>
+    </header>
+    <main>
+        <h3>{{ $name }}</h3>
+        <p> {{ $description }}</p>
+    </main>
 </body>
 
 </html>
