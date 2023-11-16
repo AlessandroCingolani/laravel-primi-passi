@@ -9,7 +9,16 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Hello World!</h1>
+        <h3>{{ $text }} {{ $name }}</h3>
+    </main>
 </body>
 
 </html>
