@@ -12,14 +12,18 @@
 
 <body>
     <header>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-        </ul>
+        <div class="container mt-3">
+            <ul class="list-unstyled d-flex">
+                <li><a href="/">Home</a></li>
+                <li class="ps-3"><a href="/about">About</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <h1>Hello World!</h1>
-        <h3>{{ $text }} {{ $name }}</h3>
+        <div class="container">
+            <h1 class="text-success">Hello World!</h1>
+            <h3 class="text-danger">{{ $text }} {{ $name }}</h3>
+        </div>
     </main>
 </body>
 

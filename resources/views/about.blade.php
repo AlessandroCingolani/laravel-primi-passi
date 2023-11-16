@@ -12,14 +12,18 @@
 
 <body>
     <header>
-        <ul>
-            <li><a href="/">Return home</a></li>
-            <li><a href="/info">Info</a></li>
-        </ul>
+        <div class="container mt-3">
+            <ul class="list-unstyled d-flex">
+                <li><a href="/">Return home</a></li>
+                <li class="ps-3"><a href="/info">Info</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <h3>{{ $name }}</h3>
-        <p> {{ $description }}</p>
+        <div class="container">
+            <h2 class="text-success">{{ $name }}</h2>
+            <span>Role: <span class="text-info"> {{ $description }}</span></span>
+        </div>
     </main>
 </body>
 

@@ -12,14 +12,18 @@
 
 <body>
     <header>
-        <ul>
-            <li><a href="/">Return Home page</a></li>
-            <li><a href="/about">Return About page</a></li>
-        </ul>
+        <div class="container  mt-3">
+            <ul class="list-unstyled d-flex">
+                <li><a href="/">Return Home page</a></li>
+                <li class="ps-3"><a href="/about">Return About page</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <h3>{{ $title }}</h3>
-        <p>{{ $text }}</p>
+        <div class="container">
+            <h3 class="text-secondary">{{ $title }}</h3>
+            <strong>{{ $text }}</strong>
+        </div>
     </main>
 </body>
 
